@@ -1,143 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>GMTW</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"> 
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
-	<h1>
-		Matemáticas, Física, machine learning y más...
-	</h1>
+	<header>
+		<div class="contenedor">
+			<nav class="menu">
+				<a href="#">Acerca de</a>
+				<a href="#">Proyectos</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
 
-	<div class = 'menu-principal' id ='contenedor-menu-principal' >
-		<nav class = 'CV' title="CV">CV</nav>
-		<nav class = 'Matemáticas'>Matemáticas</nav>
-		<nav class = 'Machine Learning'>Machine Learning</nav>
-	</div>
+		<div class="contenedor-texto">
+			<div class="texto">
+				<h1 class="nombre">Julio César</h1>
+				<h2 class="profesion">Data Scientist</h2>
+			</div>
+		</div>
+	</header>
 
-	<div class = 'Cuerpo-CV'>
-		<table class= 'Personal-information'>
-			<th>Información personal</th>
-			<tr>
-				<th>Nombre: </th>
-				<td>Julio César Sosa Mondragón</td>
-			</tr>
+	<section class="main">
+		<section class="acerca-de">
+			<div class="contenedor">
+				
+				<div class="foto">
+					<img src="img/julio.jpg" width="115" alt="julio">
+				</div>
+
+				<div class="texto">
+					<h3 class="titulo">Acerca de</h3>
+					<p>Soy pasante de la licenciatura en Física por parte de la UNAM
+						mis intereses son la programación en general y temas de ciencia y tecnología.
+						Los temas que más me llaman la atención son la 
+						<span class="bold">inteligencia artificial</span> y
+						el <span class="bold">deep learning</span>
+					</p>
+				</div>
 			
-			<tr>
-				<th>Dirección:</th>
-				<td>Manuel M. López 101</td>
-			</tr>
+			</div>
 
-			<tr>
-				<th>Email: </th>
-				<td>julio_somo@ciencias.unam.mx</td>
-			</tr>
+		</section>
 
-			<tr>
-				<th></th>
-			</tr>
-		</table >
+		<section class="trabajos">
+			<div class="contenedor">
+				<h3 class="titulo">Proyectos</h3>
+				<div class="contenedor-trabajos">
+					<div class="trabajo">
+						<div class="thumb">
+							<img src="img/trabajos/house_pricing.jpg" alt="Precio de casas" width="115">
+							<div class="descripcion">
+								<p class="nombre">Precio de casas</p>
+							</div>
+						</div>
+					</div>
 
-		<table class = 'Education'>
-			<th>Educación</th>
-			<tr>
-				<th>Universidad: </th>
-				<td>UNAM</td>
-			</tr>
+						<div class="trabajo">
+						<div class="thumb">
+							<img src="img/trabajos/titanic.jpg" alt="Precio de casas" width="115">
+							<div class="descripcion">
+								<p class="nombre">Titanic</p>
+							</div>
+						</div>
+					</div>
 
-			<tr>
-				<th>Periódo</th>
-				<td>2012-2018</td>
-			</tr>
+					<div class="trabajo">
+						<div class="thumb">
+							<img src="img/trabajos/turkey.jpg" alt="Precio de casas" width="115">
+							<div class="descripcion">
+								<p class="nombre">No me llames guajolote</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-			<tr>
-				<th>Título: </th>
-				<td>Físico, pasante</td>
+	</section>
 
-			</tr>		
-		</table>
+	<footer>
+		<section class="contacto">
+			<div class="contenedor">
+				<h3 class="titulo">Contacto</h3>
+				<form class="formulario" action="">
+					<input type="text" placeholder="Nombre" name="nombre" required>
+					<input type="email" placeholder="Correo" name="correo" required>
+					<textarea class="mensaje" placeholder="Mensaje:"></textarea>
+					<input type="submit" name="Enviar" class="boton">
+				</form>
+			</div>
+		</section>
 
-		<table class = 'Computation'>
-			<th>Computación</th>
-			<tr>
-				<th>Python </th>
-				<td>2 años de experiencia	</td>
-				<td>80%</td>
-			</tr>
+		<section class="redes-sociales">
+			<div class="contenedor">
+				<a href="http://www.facebook.com/juliogmtw" class="facebook">
+					<i class="fa fa-facebook-official" ></i>
+				</a>
 
-			<tr>
-				<th>Linux</th>
-				<td>2 años de experiencia	</td>
-				<td>50%</td>
-			</tr>
+				<a href="https://www.youtube.com/channel/UCMpC1chubaaK38NxO1Ab91A" class="youtube">
+					<i class="fa fa-youtube-play" aria-hidden="true"></i>
+				</a>
 
-			<tr>
-				<th>Hojas de Cálculo </th>
-				<td>2 años de experiencia	</td>
-				<td>40%</td>
-			</tr>
+				<a href="https://www.linkedin.com/in/juliosomo/" class="linkedin">
+					<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+				</a>
 
-			<tr>
-				<th>Fortran </th>
-				<td>2 años de experiencia	</td>
-				<td>50%</td>
-			</tr>
-			
-		</table>
+				<a href="https://github.com/gmtw" class="github">
+					<i class="fa fa-github" aria-hidden="true"></i>
+				</a>
 
-		<table class="Habilities">
-			<th>Habilidades</th>
-			<tr>
-				<th>Trabajo en equipo</th>
-				<td>
-					Excelente relación con mis compañeros de trabajo para poder alcanzar las metas en
-					tiempo y forma.
-				</td>
-			</tr>
-			<tr>
-				<th>Autodidacta</th>
-				<td>
-					Aprendí python y ciencia de datos por mi cuenta. Además de que siempre estoy en
-					constante aprendizaje y abierto hacia las nuevas tecnologías.
-				</td>
-			</tr>
 
-			<tr>
-				<th>Constancia</th>
-				<td>
-					Compromiso para realizar mis objetivos y mejorarlos continuamente.
-				</td>
-			</tr>
-
-			<tr>
-				<th>Accesibilidad</th>
-				<td>
-					Apoyo a otras áreas.
-				</td>
-			</tr>
-			
-		</table>
-
-		<table class="interests">
-			<th>Intereses</th>
-
-			<tr>
-				<th>Data Science</th>
-				<td>
-					Me interesa la programación combinada con estadística o modelado matemático.
-				</td>
-			</tr>
-
-			<tr>
-				<th>Deep Learning</th>
-				<td>
-					Conocer las redes neuronales a fondo y aprender a aplicarlos a diferentes ramas de
-					la salud.
-				</td>
-			</tr>
-			
-		</table>
-	</div>
+			</div>
+		</section>
+	</footer>
+	
 
 </body>
 </html>
