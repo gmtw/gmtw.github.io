@@ -1,0 +1,96 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #FFFFFF;
+	font-family:'Old Standard TT', Sans-serif;
+	font-size: 16px;
+
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* -----------------------HEADER-------------------------------- */
+
+header{
+	background-color: #FFFFFF;
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('../img/header.jpg');
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	max-height: 600px;
+}
+
+header .menu{
+	margin: 40px 0;
+	text-align: right;
+
+}
+
+header .menu a{
+	margin: 0 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	padding-bottom: 9px;
+	border-bottom: 2px solid transparent;
+	font-size: 1em;
+}
+
+header .menu a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+header .contenedor-texto {
+	display: flex; 
+	justify-content: center;
+	align-content: center;
+	margin: 190px 0;
+
+}
+
+header .contenedor-texto .texto{
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 3px;
+	text-align: center;
+	padding: 20px 60px;
+}
+
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2{
+	color: #fff;
+	font-weight: 400;
+	margin: 0;
+
+}
+
+header .contenedor-texto .texto .nombre{
+	margin: 10px;
+	font-size: 50px;
+	line-height: 50px;
+}
+
+header .contenedor-texto .texto .profesion{
+	font-size: 25px;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
