@@ -86,11 +86,115 @@ header .contenedor-texto .texto .profesion{
 	line-height: 25px;
 }
 
+/* -------------------------MAIN----------------------------------- */
+.main .contenedor{
+	overflow: visible;
+}
 
+.main .acerca-de{
+	text-align: center;
+}
 
+.main .acerca-de .foto{
+	margin-top: -60px;
+}
 
+.main .acerca-de .foto img{
+	vertical-align: top;
+	border-radius: 50%;
+	border: 5px solid rgba(255,255,255,0.3);
+}
 
+.main .acerca-de .texto{
+	color: #253225;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 30px;
+	width: 80%;
+	margin: 40px auto 60px auto;
+}
 
+.main .acerca-de .texto .titulo{
+	line-height: 34px;
+	font-size: 34px;
+	margin-bottom: 40px;
+	color: #440D0D;
+	font-weight: 700;
+	text-align: center;
+}
 
+.main .acerca-de .texto .bold{
+	color: #3895ea;
+	text-decoration: underline;
+}
 
+/* ----------------TRABAJOS---------------- */
+
+.main .trabajos{
+	background: #F1FDF0;
+	padding: 60px 0;
+}
+
+.main .trabajos .contenedor{
+	overflow: hidden;
+
+}
+
+.main .trabajos .titulo{
+	line-height: 34px;
+	font-size: 34px;
+	margin-bottom: 40px;
+	color: #1A241B;
+	font-weight: 700;
+	text-align: center;
+}
+
+.main .contenedor .contenedor-trabajos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+.main .contenedor .contenedor-trabajos .trabajo{
+	width: 23%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.main .contenedor .contenedor-trabajos .trabajo .thumb{
+	width: 100px;
+}
+
+.main .contenedor .contenedor-trabajos .trabajo .thumb img{
+	width: 100%;
+	vertical-align: top;
+	border-radius: 3px;
+	border: 1px solid #F2ECEC;
+	opacity: 0.85;
+
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion{
+	text-align: center
+
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre{
+	font-weight: 700;
+	color: #10134E;
+	margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria{
+	font-size: 14px;
+	color: #636363;
+}
+
+.main .contenedor .contenedor-trabajos .trabajo .thumb img:hover{
+	border: 2px solid #000;
+	opacity: 1;
+}
 
