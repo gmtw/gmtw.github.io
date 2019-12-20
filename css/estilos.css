@@ -303,3 +303,31 @@ footer .redes-sociales .github:hover{
 	background: #333;
 }
 
+
+/* -----------------------------MEDIA QUERIES------------------------- */
+
+@media screen and (max-width: 800px) {
+	header .menu{
+		text-align: center;
+	}
+
+	main .trabajos .contenedor-trabajo .trabajo{
+		width: 46%;
+
+	}
+}
+
+@media screen and (max-width: 500px){
+	header .contenedor-texto .texto .nombre{
+		font-size: 35px;
+	}
+
+	header .contenedor-texto .texto .profesion{
+		font-size: 20px;
+	}
+
+	footer .redes-sociales .contenedor{
+		flex-wrap: wrap;
+		padding: 20px 0;		
+	}
+} 
