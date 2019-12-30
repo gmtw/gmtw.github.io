@@ -417,5 +417,17 @@ footer .redes-sociales .github:hover{
 		z-index: -1;
 	}
 	
-
+	footer .contenedor{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	footer .contenedor .formulario{
+		display: flex;
+		flex-direction: column;
+	}
+	footer .contenedor .formulario input[type = 'text'],
+	footer .contenedor .formulario input[type = 'email']{
+		width: 100%
+	}
 }
