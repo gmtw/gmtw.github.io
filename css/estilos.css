@@ -451,6 +451,11 @@ footer .redes-sociales .github:hover{
 		display: flex;
 		flex-direction: column;
 	}
+
+	footer .redes-sociales .contenedor{
+		display: flex;
+		flex-direction: row;
+	}
 	
 	footer .contenedor .formulario{
 		display: flex;
